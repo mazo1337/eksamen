@@ -1,0 +1,242 @@
+
+@charset "UTF-8";
+/*Mobile First*/
+@media screen and (max-width: 650px){
+body {
+  background-color: white;
+  font-family: fira-sans, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* mobile first */
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-areas:
+     "header"
+     "nav"
+     "content"
+     "sidebar"
+     "ad"
+     "footer";
+}
+.logo1{
+margin-top: -3.2%;
+width: 90%;
+}
+.main-head {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.main-head #myLinks {
+  display: none;
+}
+.main-nav h3{
+  display: flex;
+  font-family: fira-sans, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.main-nav p{
+  display: flex;
+  font-family: fira-sans, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 75%;
+}
+.main-head a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.main-head a.icon {
+  background: #515d99;
+  color: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-head a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: white;
+}
+.op{
+  display: flex;
+  float: right;
+    top: 0;
+    position: sticky;
+    z-index: +1;
+}
+.hero{
+  display: flex;
+  width: 100%;
+}
+.ph1{
+  display: flex;
+  width: 100%;
+}
+.ph2{
+  display: flex;
+  width: 100%;
+}
+.ph3{
+  display: flex;
+  width: 100%;
+}
+.ph4{
+  display: flex;
+  width: 100%;
+}
+.ph5{
+  display: flex;
+  width: 100%;
+}
+.ph6{
+  display: flex;
+  width: 100%;
+}
+.ph7{
+  display: flex;
+  width: 100%;
+}
+.ph8{
+  display: flex;
+  width: 100%;
+}
+.sl1{
+  display: flex;
+  width: 100%;
+}
+
+.imagewrap {display:inline-block;position:relative;}
+.button1  {position:absolute;bottom:72%;left:43%;
+background-color: #515d99; /* Green */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: fira-sans, sans-serif;
+font-weight: 100;
+font-style: italic;
+font-size: 16px;
+opacity: 75%;
+}
+.button2  {position:absolute;bottom:52%;left:35%;
+background-color: #515d99; /* Green */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: fira-sans, sans-serif;
+font-weight: 100;
+font-style: italic;
+font-size: 16px;
+opacity: 75%;
+}
+.button3  {position:absolute;bottom:28%;left:30%;
+background-color: #515d99; /* Green */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: fira-sans, sans-serif;
+font-weight: 100;
+font-style: italic;
+font-size: 16px;
+opacity: 75%;
+}
+.button4  {position:absolute;bottom:2%;left:27%;
+background-color: #515d99; /* Green */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: fira-sans, sans-serif;
+font-weight: 100;
+font-style: italic;
+font-size: 16px;
+opacity: 75%;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.fb{
+  display: flex;
+  width: 100%;
+  padding: 5%;
+
+}
+.ln{
+  display: flex;
+  width: 100%;
+    padding: 5%;
+
+}
+.ig{
+  display: flex;
+  width: 100%;
+    padding: 5%;
+}
+
+.main-footer ul p{
+  display: flex;
+  font-family: fira-sans, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 10px;
+  opacity: 90%;
+  margin-left: -10%;
+}
+.row2{
+  display: flex;
+  justify-content: space-between;
+}
+.Copyright{
+  text-align: center;
+  font-family: fira-sans, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 10px;
+  opacity: 90%;
+}
+
+/*@media (min-width: 500px) {*
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "header  header"
+      "nav     nav"
+      "sidebar content"
+      "ad      footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+*/
+/*@media screen and (min-width: 651px) {
+
+}
